@@ -1,0 +1,525 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Poppins', 'san-serif';
+    height: 350vh;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('/image/gif1.gif');
+    background-size: cover;
+    background-position: centre; 
+}
+header{
+    width: 100;
+    height: 10vh;
+    background-position: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 300px;
+    height: 10v;
+    
+    background-image: linear-gradient( 132.6deg,  rgba(71,139,214,1) 23.3%, rgba(37,216,211,1) 84.7% );
+    display: flex;
+    align-items:center;
+    color:#fff;
+    clip-path: polygon(0 0,100% 0,64% 100%,0% 100%);
+    padding: 10px;
+    line-height: 1.3rem;
+}
+
+.logo.fas{
+    font-size: 50px;
+
+}
+.logo p{
+    width: 130px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+
+}
+.navbar li{
+    width: 120px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+
+}
+.navbar li a.active{
+    color: #fec53a;
+}
+
+.navbar li a:hover:not(active){
+    color: #fec53a;
+}
+#btn{
+    margin-top: 10px;
+    width: 250px;
+    height: 10vh;
+    background-image: linear-gradient( 132.6deg,  rgba(71,139,214,1) 23.3%, rgba(37,216,211,1) 84.7% );
+    color: #000;
+    outline: none;
+    border: none;
+    clip-path: polygon(51% 0, 100% 0, 100% 100%, 0% 100%);
+    font-size: 1.2rem;
+    font-weight:bold;
+    text-align: right;
+    padding-right: 40px;
+
+}
+#btn .fas{
+    margin-right: 10px;
+  }
+
+.content-wrapper{
+    width: 80%;
+    min-height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.content-desc h1{
+    font-size: 3rem;
+ margin-bottom: 10px;
+}
+
+.content-desc p{
+    width: 550px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 10px;
+}
+.content-desc span{
+     color: #fec53a;
+}
+#btn-2{
+    width: 350px;
+    height: 10vh;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+    font-size: 1.2rem;
+    margin-top: 15px;
+    clip-path: polygon(0 0, 56% 0, 100% 100%, 0% 100%);
+    border-radius: 18px 18px 0 18px;
+    text-align: left;
+}
+
+
+
+.logo-section{
+    display: flex;
+    align-items: center;
+    
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(105,9,121,0.9447129193474265) 35%, rgba(0,201,242,0.9895308465182948) 100%);
+    justify-content: center;
+    margin: 1px 0px;
+    padding: 18px;
+    
+}
+
+
+.logo-section h1{
+    width: 250px;
+    font-size: 2rem;
+    color: #fec53a;
+    margin-left: 10px;
+}
+.logo-section .fas{
+    font-size: 6rem;
+    color: #fec53a;
+}
+
+
+.section-1{
+    width:100%;
+    height:100vh;
+    background: linear-gradient(rgba(0,0,0,0.767),rgba(0,0,0,0.712)),url('/image/game\ wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.section-1-wrapper{
+    width: 70%;
+    margin: auto;
+    color: gold;
+    padding-top: 24px;
+}
+.section-1-h1{
+    font-size:1.5rem;
+    color:#fec53a;
+    font-weight:450;
+    
+}
+
+.section-1-img{
+    display:flex;
+}
+
+.section-1-img .img{
+    width: 183px;
+    height: 115px;
+    background: url(/image/valorant.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+ .section-1-img .img-2{
+    background: url(/image/fornite.jpg);
+    background-size: cover;
+    background-position: center;
+ }
+
+ .section-1-img .img-3{
+    background: url(/image/minecraft.png);
+    background-size: cover;
+    background-position: center;
+ }
+
+ .section-1-img .img-4{
+    background: url(/image/subgame1.jpg);
+    background-size: cover;
+    background-position: center;
+ }
+
+ .section-1-img .img-5{
+    background: url(/image/royale.jpg);
+    background-size: cover;
+    background-position: center;
+ }
+
+ .section-1-img .img-6{
+    background: url(/image/racedestiny.jpg);
+    background-size: cover;
+    background-position: center;
+ }
+
+ .img:hover{
+    transform: translateY(-10px);
+ }
+
+ .game-categories{
+    width: 70%;
+    margin: auto;
+    position: relative;
+ }
+
+ .game-categories h1{
+    font-size: 1.5rem;
+    margin: 168px 0;
+    margin-bottom: 4px;
+
+    color: #fec53a;
+ }
+ .gw{
+    width: 186px;
+    height: 120px;
+    background: url(/image/cargame.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px 15px 0 0;
+    border-radius: 10px;
+}
+
+.gw:hover{
+    transform: translate(-10px);
+}
+
+.game-wrapper{
+    display: flex;
+}
+
+.left{
+    position: relative;
+    right: -140px;
+}
+
+.gw-1{
+    background: url(/image/cargame.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gw-2{
+    background: url(/image/gc2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gw-3{
+    background: url(/image/gc3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gw-4{
+    background: url(/image/gc4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gw-5{
+    background: url(/image/gc5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gw-6{
+    background: url(/image/gc6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gw-7{
+    background: url(/image/gc7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-8{
+    background: url(/image/gc8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-9{
+    background: url(/image/gc1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section-2{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/image/wallpaper2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-2 h1{
+    font-size: 2rem;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.players{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-image{
+  width: 200px;
+  height: 200px;
+  background: url(/image/vs1-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  position: relative;
+}
+.vs1::after{
+    content: 'VS';
+    position: absolute;
+    left: 655px;
+    font-size: 2rem;
+    color: #fec53a;
+}
+
+.players span{
+    font-size: 1.5rem;
+    color: #fec53a;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.stars{
+    color: #FEC53A;
+}
+.p-image-2{
+    background: url(/image/vs2-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.p-image-3{
+    background: url(/image/vs3-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.vs2::after{
+    content: 'VS';
+    position: absolute;
+    
+    right: 262px;
+    font-size: 2rem;
+    color: #fec53a;
+}
+.p-image-4{
+    background: url(/image/vs4-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.p-image-4:hover {
+    transform: rotateY(180deg);
+    
+}
+.p-image-3:hover {
+    transform: rotateY(180deg);
+    
+}
+.p-image-2:hover {
+    transform: rotateY(180deg);
+    
+}
+.p-image:hover {
+    transform: rotateY(180deg);
+    
+}
+.section-3{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/image/s3.jpg);
+    background-size: cover;
+    background-color: center;
+    background-attachment: fixed;
+}
+
+.section-3 h1{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+
+.section-3-wrapper{
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.feedback{
+     width: 250px;
+     height: 300px;
+     background: url(/image/fd2.jpg);
+     background-size: cover;
+     background-position: center;
+}
+.feedback-desc{
+    width: 300px;
+    height: 300px;
+    background: rgba(0,0,0,0.767);
+    padding: 10px;
+    color: #fff;
+    margin-right: 10px;
+
+}
+
+.feedback-desc .far{
+    color: #fec53a;
+    font-size: 30px;
+}
+.f-image-2{
+    background: url(/image/fd1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    width: 100%;
+    height: 55vh;
+    background: #2c2b2b;
+    display: flex;
+    align-items: center;
+    background: relative;
+}
+
+.footer-body{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer-logo{
+    height: 12vh;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
+    width: 367px;
+    color: #000;
+    line-height: 1.7rem;
+}
+
+ul h3{
+    color:#fff;
+    font-weight: 450;
+}
+
+ul li{
+    list-style: none;
+    line-height: 2.5rem;
+    
+}
+ul li a.fab{
+    font-size: 1.2rem;
+    color:#fec53a;
+    margin-right: 15px;
+}
+ul li a:hover{
+    color: #FEC53A;
+}
+.footer-bottom{
+    width: 100%;
+    height: 7vh;
+    background: #1B1919;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+}
+.footer-bottom span{
+    color: #FEC53A;
+    font-weight: bold;
+}
+.footer-body i{
+    margin-right: 20px;
+    color: #fff;
+}
+.a{
+color: aqua;
+}
+.sak{
+    color:rgb(123, 0, 255);
+    text-decoration: none;
+  
+}
